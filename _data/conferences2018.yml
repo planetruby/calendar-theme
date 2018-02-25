@@ -1,8 +1,5 @@
 #############################
 #  ruby event news in 2018
-#
-#  published at the Calendar @ Planet Ruby
-#    see https://planetruby.github.io/calendar/2018
 
 
 - name:       Ruby on Ice
@@ -85,8 +82,8 @@
   cfp:
     end:      2018-01-31 ## Jan 31, 2018
     phrase:   CFP closes
-  updated:    2018-01-27   ## note: used for feed.xml|json  
- 
+  updated:    2018-01-27   ## note: used for feed.xml|json
+
 - name:       Bath Ruby
   location:   Bath, England, United Kingdom
   start:      2018-03-22     ## March 22nd+23rd, 2018
@@ -107,7 +104,7 @@
   cfp:
     end:    2018-02-04    ## Feb 4, 2018
     phrase: CFP closes
-  reg:   
+  reg:
     start:  2018-01-25    ## Jan 25, 2018
     phrase: Registration open
 
@@ -132,7 +129,7 @@
   month:      4
   url:        https://rubyconference.by
   twitter:    rubyconfby
-  updated:    2018-01-30   ## note: used for feed.xml|json  
+  updated:    2018-01-30   ## note: used for feed.xml|json
 
 
 - name:       Ruby X Elixir Conf Taiwan
@@ -166,7 +163,7 @@
   month:      5
   url:        http://rubyunconf.eu
   twitter:    rubyunconfeu
-  updated:    2018-01-28   ## note: used for feed.xml|json  
+  updated:    2018-01-28   ## note: used for feed.xml|json
 
 
 - name:       Balkan Ruby
@@ -193,7 +190,7 @@
   cfp:
     end:    2018-02-28    ## Feb 28, 2018
     phrase: CFP closes
-  updated:    2018-01-31   ## note: used for feed.xml|json  
+  updated:    2018-01-31   ## note: used for feed.xml|json
 
 
 - name:       Kyiv RubyC
