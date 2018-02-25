@@ -1,0 +1,19 @@
+
+{% capture conferences_key %}{{ page.conferences | default: 'conferences2018' }}{% endcapture %}
+<!-- debug conferences_key: {{ conferences_key }} -->
+
+{% assign confs = site.data[ conferences_key ] | where: "month", include.month %}
+{% for conf in confs %}
+
+<div style="padding: 4px; display: flex;">
+   <div style="width: 80px">
+   {% if conf.start %}
+      <span style="font-size: 140%;">{{ conf.start | date: "%a %-d" }}</span>
+   {% endif %}
+  </div>
+   <div>
+    {% include conf.html conf=conf %}
+  </div>
+</div>
+
+{% endfor %}

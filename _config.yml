@@ -1,0 +1,11 @@
+
+exclude:
+- README.md
+
+
+plugins:
+- jekyll-default-layout
+- jekyll-optional-front-matter
+- jekyll-titles-from-headings
+- jekyll-avatar
+- jemoji

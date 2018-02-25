@@ -1,2 +1,1 @@
-# calendar-theme
-Calendar Theme
+# Calendar Theme
