@@ -1,0 +1,12 @@
+{% assign conf = include.conf %}
+
+<h2>Conferences 'n' Camps</h2>
+<p>
+What's News? What's Upcoming in {{ page.year | default: 2018 }}?
+</p>
+<p>
+{% include conf.html conf=conf %}
+</p>
+<p>
+See all <a href="{{ page.link | absolute_url }}">Conferences 'n' Camps in {{ page.year | default: 2018 }}»</a>.
+</p>
