@@ -19,6 +19,10 @@
         {% endif %}
      {% endif %}
 
+     {% if conf.tickets %}
+        {{ conf.tickets }}
+     {% endif %}
+
      <br>
 
      {% if conf.note %}
@@ -62,5 +66,3 @@
      {% if conf.twitter %}
        • <a href="https://twitter.com/{{ conf.twitter }}" title="@{{ conf.twitter }}">(Updates)</a>
      {% endif %}
-
-  
